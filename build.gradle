@@ -1,0 +1,9 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+    }
+}
+
+apply plugin: 'java'
+group = 'com.migrantworker'
+sourceCompatibility = '1.8'
